@@ -1,0 +1,28 @@
+header, main, aside, footer {
+	background-color: lightgrey;
+	border: 3px solid darkgrey;
+	margin: 15px;
+}
+
+header, footer {
+	height: 150px;
+}
+
+main, aside {
+	height: 600px;
+	float: left;
+}
+
+main {
+	width: 50%;
+}
+
+aside {
+	width: 20%;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}

@@ -1,0 +1,38 @@
+main, footer, .logo, .navitem, .left, .center, .right {
+	background-color: lightgrey;
+	border: 3px solid darkgrey;
+	margin: 15px;
+}
+
+.logo {
+	height: 100px;
+	width: 200px;
+}
+
+.navitem {
+	height: 75px;
+	width: 100px;
+	margin: 5px;
+	display: inline-block;
+}
+
+main  {
+	height: 600px;
+}
+
+
+.left, .center, .right {
+	height: 150px;
+	width: 30%;
+	float: left;
+}
+
+footer {
+	height: 150px;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}

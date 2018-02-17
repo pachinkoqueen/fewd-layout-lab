@@ -1,0 +1,28 @@
+header, main, footer, .left, .center, .right {
+	background-color: lightgrey;
+	border: 3px solid darkgrey;
+	margin: 15px;
+}
+
+header, footer {
+	height: 150px;
+}
+
+main  {
+	height: 600px;
+	width: 46%;
+	float: left;
+}
+
+
+.left, .center, .right {
+	height: 150px;
+	width: 30%;
+	float: left;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
